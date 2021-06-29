@@ -37,5 +37,28 @@ zoo1.add_oso(yogui)
 winniethepoo=Oso("Winnie The Poo", 15)
 zoo1.add_oso(winniethepoo)
 
+zoo2 = Zoo("Zoo_Quilpue")
+leoncio=Leon("Leoncio", 15)
+zoo2.add_leon(leoncio)
+mufasa=Leon("Simba", 10)
+zoo2.add_leon(mufasa)
+tiguer=Tigre("Tiguer", 5)
+zoo2.add_tigre(tiguer)
+tigresadeloriente=Tigre("Tigresa del oriente", 25)
+zoo2.add_tigre(tigresadeloriente)
+cariñosito=Oso("Cariñosito", 7)
+zoo2.add_oso(cariñosito)
+anteojitos=Oso("Anteojitos", 17)
+zoo2.add_oso(anteojitos)
+
 zoo1.print_all_info()
+zoo2.print_all_info()
+
+simba.alimentacion()
+sherekhan.alimentacion()
+cariñosito.alimentacion()
+tiguer.alimentacion()
+
+zoo1.print_all_info()
+zoo2.print_all_info()
 
