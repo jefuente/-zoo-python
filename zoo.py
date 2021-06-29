@@ -20,8 +20,7 @@ class Zoo:
         return self
     def print_all_info(self):
         print("-"*30, self.nombre, "-"*30)
-        for animal in self.animales:
-               
+        for animal in self.animales:       
             animal.display_info()
         return self
 zoo1 = Zoo("Zoo_Metropolitano")
